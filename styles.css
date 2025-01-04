@@ -1,0 +1,146 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #111;
+    color: #E5E5E5;
+  }
+  
+  header h1 {
+    color: #32CD32;
+    font-size: 3.5rem;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px #006400;
+  }
+  
+  h2 {
+    color: #32CD32;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #DCDCDC;
+  }
+  
+  a {
+    color: #00FA9A;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Overview Section */
+  .overview-section {
+    background-color: #222;
+    padding: 40px 20px;
+  }
+  
+  .overview-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .overview-content .text {
+    flex: 1;
+    min-width: 40%;
+    text-align: left;
+  }
+  
+  .overview-content .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .overview-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #32CD32;
+  }
+  
+  /* Content Sections */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 20px;
+    gap: 20px;
+  }
+  
+  .section {
+    flex: 1;
+    min-width: 30%;
+    background: #222;
+    border: 2px solid #32CD32;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 255, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Demo Section */
+  .demo-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #222;
+  }
+  
+  .demo-section video {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid #32CD32;
+  }
+  
+  /* Contact Section */
+  footer {
+    background: #222;
+    padding: 30px 0;
+    margin-top: 40px;
+    border-top: 2px solid #32CD32;
+  }
+  
+  footer h2 {
+    margin-bottom: 20px;
+    color: #32CD32;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+  }
+  
+  .social-links a img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #32CD32;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links a img:hover {
+    transform: scale(1.2);
+  }
+  

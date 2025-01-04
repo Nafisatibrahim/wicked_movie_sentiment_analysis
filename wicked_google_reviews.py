@@ -87,7 +87,7 @@ for query in queries:
 # Save Google Search results
 if all_data:
     df = pd.DataFrame(all_data)
-    df.to_csv("google_search_results_with_categories.csv", index=False)
+    df.to_csv("Output/google_search_results_with_categories.csv", index=False)
     print("Search results saved to 'google_search_results_with_categories.csv'")
 else:
     print("No data fetched from Google Search.")

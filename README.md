@@ -3,6 +3,8 @@
 ## Overview
 This project focuses on analyzing public sentiment toward the 2024 movie *Wicked* using data collected from Google Search results. It includes data cleaning, preprocessing, visualizations, and sentiment analysis to uncover trends and insights from reviews.
 
+🟢 Check out the web page here: https://nafisatibrahim.github.io/wicked_movie_sentiment_analysis/
+
 ![Wicked Movie](Images/wicked-cynthia-erivo-ariana-grande.webp)
 
 ---

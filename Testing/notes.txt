@@ -1,0 +1,7 @@
+Google Search
+<script async src="https://cse.google.com/cse.js?cx=a2abac37cb0894942">
+</script>
+<div class="gcse-search"></div>
+
+Search Engine id
+a2abac37cb0894942
